@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+
+    background-color: black;
+    padding: 40px;
+
+    h1{
+        color: white;
+    };
+}
+
+.links{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+
+    a{
+        text-decoration: none;
+        color: white;
+
+        font-size: 18px;
+    }
+
+    a:hover{
+        text-decoration: underline;
+        transition: 0.3s;
+    }
+}
+
+.aba-perfil{
+    display: flex;
+    justify-content: space-between;
+
+    width: 200px;
+
+    a{
+        text-decoration: none;
+        color: white;
+
+        font-size: 18px;
+    }
+
+    a:hover{
+        text-decoration: underline;
+        transition: 0.3s;
+    }
+}

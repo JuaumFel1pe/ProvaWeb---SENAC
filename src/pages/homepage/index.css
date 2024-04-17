@@ -1,0 +1,31 @@
+.promocao{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: lightgray;
+}
+
+.promo-infos{
+    display: flex;
+    flex-direction: column;
+
+    a{
+        margin-top: 40px;
+
+        font-size: 30px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 20px;
+        text-align: center;
+
+        color: black;
+        text-decoration: none;
+    }
+
+    a:hover{
+        background-color: rgb(189, 188, 188);
+        transition: 0.3s;
+        color: white;
+    }
+}
